@@ -46,7 +46,6 @@ namespace API_Testing.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError,
                     "Error retrieving data from the database");
             }
-
         }
     }
 }
